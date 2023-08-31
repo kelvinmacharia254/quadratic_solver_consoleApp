@@ -10,7 +10,7 @@ class TestQuadratic(unittest.TestCase):
         Test zero coeffs
         """
         input = []
-        self.assertEqual(Quadratic(input).error, "Error: No coefficient passed. Atleast on be should be passed.")
+        self.assertEqual(Quadratic(input).error, "Error: No coefficient passed. Atleast one be should be passed.")
 
     def test_excess_coeffs(self):
         """
